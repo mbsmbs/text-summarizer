@@ -43,15 +43,36 @@ export default function HomePage() {
         value={text}
         onChange={(e) => setText(e.target.value)}
         placeholder="Paste your text here..."
-        style={{ width: '100%', marginTop: 20 }}
+        style={{
+          width: '100%',
+          marginTop: 20,
+          padding: '10px',
+          border: '1px solid #ccc',
+          borderRadius: 6,
+          fontSize: '1rem',
+          resize: 'vertical',
+          backgroundColor: '#111',
+          color: '#eee',
+        }}
       />
+
       <button
         onClick={handleSummarize}
         disabled={loading || !text.trim()}
-        style={{ marginTop: 20 }}
+        style={{
+          marginTop: 20,
+          padding: '10px 20px',
+          border: '1px solid #ccc',
+          backgroundColor: loading ? '#444' : '#fff',
+          color: loading ? '#aaa' : '#000',
+          cursor: loading ? 'not-allowed' : 'pointer',
+          borderRadius: 6,
+          transition: 'background-color 0.3s ease',
+        }}
       >
         {loading ? 'Summarizing...' : 'Summarize'}
       </button>
+
 
       {summary && (
         <div style={{ marginTop: 40 }}>
