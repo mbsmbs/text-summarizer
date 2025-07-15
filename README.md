@@ -6,12 +6,12 @@ This project is a full-stack web application that summarizes long texts using mo
 
 ## 🧰 Tech Stack
 
-| Layer       | Tech Used                                            | Description                                                   |
-| ----------- | ---------------------------------------------------- | ------------------------------------------------------------- |
-| 🧠 Backend  | [FastAPI](https://fastapi.tiangolo.com)              | Python web framework used to serve a summarization API        |
-| 🧪 NLP      | [Transformers](https://huggingface.co/transformers/) | HuggingFace pipeline with `distilbart` for text summarization |
-| 💻 Frontend | [Next.js](https://nextjs.org) + React                | Interface where users paste text and view summaries           |
-| 🐳 DevOps   | Docker & Docker Compose                              | Containers to run frontend + backend together                 |
+| Layer       | Tech Used                                                   | Description                                                   |
+| ----------- | ----------------------------------------------------------- | ------------------------------------------------------------- |
+| 🧠 Backend  | [FastAPI](https://fastapi.tiangolo.com)                     | Python web framework used to serve a summarization API        |
+| 🧪 NLP      | [Transformers](https://huggingface.co/transformers/)        | HuggingFace pipeline with `distilbart` for text summarization |
+| 💻 Frontend | [Next.js](https://nextjs.org) + [React](https://react.dev/) | Interface where users paste text and view summaries           |
+| 🐳 DevOps   | [Docker](https://www.docker.com/) & Docker Compose          | Containers to run frontend + backend together                 |
 
 ---
 
