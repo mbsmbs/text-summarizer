@@ -1,0 +1,40 @@
+# === Python (FastAPI backend) ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.venv/
+venv/
+backend/app/__pycache__/
+
+# === Node.js (Next.js frontend) ===
+node_modules/
+.next/
+out/
+.env.local
+.env.development.local
+.env.production.local
+
+# === Docker ===
+*.log
+Dockerfile*
+.dockerignore
+
+# === System / IDE ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# === OS specific ===
+# macOS
+.AppleDouble
+.LSOverride
+
+# Windows
+Desktop.ini
+
+# === Others ===
+*.swp
+*~
